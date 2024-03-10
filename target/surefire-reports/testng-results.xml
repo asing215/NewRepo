@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-06T16:58:30 IST" name="Suite" finished-at="2023-04-06T16:58:43 IST" duration-ms="13181">
+    <groups>
+    </groups>
+    <test started-at="2023-04-06T16:58:30 IST" name="Test" finished-at="2023-04-06T16:58:43 IST" duration-ms="13181">
+      <class name="com.sas.UIAutomation.SeleniumTestNG">
+        <test-method is-config="true" signature="init()[pri:0, instance:com.sas.UIAutomation.SeleniumTestNG@7c974942]" started-at="2023-04-06T16:58:30 IST" name="init" finished-at="2023-04-06T16:58:37 IST" duration-ms="7260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method signature="Test_assert_equals()[pri:1, instance:com.sas.UIAutomation.SeleniumTestNG@7c974942]" started-at="2023-04-06T16:58:39 IST" name="Test_assert_equals" description="Demonstration of AssertEquals in Selenium Java" finished-at="2023-04-06T16:58:43 IST" duration-ms="3540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test_assert_equals -->
+      </class> <!-- com.sas.UIAutomation.SeleniumTestNG -->
+      <class name="com.sas.APIAutomation.NewTest">
+        <test-method signature="f()[pri:0, instance:com.sas.APIAutomation.NewTest@28cb9120]" started-at="2023-04-06T16:58:37 IST" name="f" description="First API report" finished-at="2023-04-06T16:58:39 IST" duration-ms="2212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.sas.APIAutomation.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
